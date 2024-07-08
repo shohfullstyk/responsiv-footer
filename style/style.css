@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+.my-content{
+    max-width: 1640px;
+    width: 100%;
+    margin: auto;
+}
+.default{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 68px;
+    gap: 32px;
+    border-radius: 24px;
+    border: 1px solid #D3D4D6;
+    opacity: 0px;
+}
+.default .imgs .img2{
+    display: none;
+}
+.default .imgs .img3{
+    display: none;
+}
+/* .title{
+    display: block;
+    gap: 15px;
+} */
+.title h2{
+    font-size: 43px;
+    font-weight: 800;
+    line-height: 47.3px;
+    text-align: left;
+    color: #6F4FF2;
+}
+.title .p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 12px;
+}
+.button-text{
+    max-width: 437px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F1F1F2;
+    margin-top: 12px;
+    border-radius: 12px;
+}
+.button-text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #67696F;
+    margin-left: 12px;
+}
+.button-text .btnt{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+    background-color: #6F4FF2;
+    padding: 10px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.foter{
+    background-color: #202020;
+    margin-top: 64px;
+}
+.top-bottom{
+    padding: 84px 0;
+}
+.top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 32px;
+    border-bottom: 1.5px solid #D3D4D6;
+}
+ 
+.top .icon{
+    align-items: center;
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+.icon .bg{
+    width: 30px;
+    height: 30px;
+    background-color: #6F4FF2;
+    border-radius: 50%;
+    padding: 6px 6px;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+.bottom p{
+    max-width: 370px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+}
+.bottom .ul1{
+    max-width: 140px;
+    list-style: none;
+    display: block; 
+    gap: 8px;
+
+}
+.ul1 .p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: left;
+    color: white;
+    margin-top: 8px;
+}
+.ul1 .color{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 33.6px;
+    text-align: left;
+    color: #6F4FF2;
+}
+@media screen and (max-width: 1440px) {
+    .my-content{
+        max-width: 1400px;
+
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .my-content{
+        max-width: 900px;
+    }
+    .title h2{
+        font-size: 30px;
+        /* background-color: #67696F; */
+    }
+    .top{
+        flex-wrap: wrap;
+        display: block;
+    }
+    .top .icon{
+        margin-top: 20px;
+    }
+    .bottom{
+        display: block;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 768px) {
+    .my-content{
+        max-width: 746px;
+    }
+
+    .title h2{
+        font-size: 30px;
+    }
+    .default .imgs .img1
+    {
+        display: none;
+    }
+    .default .imgs .img2{
+        display: block;
+    }
+    .button-text {
+        flex-wrap: wrap;
+        background-color: white;
+        padding: 0;
+    }
+    .button-text .btnt{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .button-text p{
+        width: 100%;
+        text-align: left;
+        background-color: #F1F1F2;
+        padding: 10px 12px;
+        border-radius: 8px;
+    }
+}
+@media screen and (max-width: 680px){
+    .my-content{
+        max-width: 670px;
+    }
+    .default{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .button-text{
+        width: 100%;
+    }
+    .default .imgs .img2{
+        display: none;
+    }
+    .default .imgs .img3{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .my-content{
+        max-width: 420px;
+    }
+    .title h2{
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 33.6px;
+        text-align: left;
+    }
+    .title p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19.6px;
+        text-align: left;
+
+    }
+}
